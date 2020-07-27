@@ -3,9 +3,12 @@
 @version:
 @Author: luowen
 @Date: 2020-07-23 22:29:54
-@LastEditTime: 2020-07-24 21:46:29
+@LastEditTime: 2020-07-25 11:49:06
 @FilePath: /python/testPython/hello.py
 '''
+
+print("hello")
+
 
 
 """ # example square root
