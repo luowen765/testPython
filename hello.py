@@ -1,16 +1,18 @@
 '''
-@Descripttion:
-@version:
+@Descripttion: 
+@version: 
 @Author: luowen
-@Date: 2020-07-23 22:29:54
-@LastEditTime: 2020-07-25 11:49:06
-@FilePath: /python/testPython/hello.py
+@Date: 2020-07-25 10:32:48
+@LastEditTime: 2020-07-27 14:55:11
 '''
 
-print("hello")
-
-
-
+with open(r"oblivious words for IELTS.txt") as f:
+    print(len(f.readlines()))
+""" with open("out.txt","w") as f1:
+      with open("oblivious words for IELTS.txt") as f2:
+             for count, line in enumerate(f2):
+                   count += 1
+                    print(count) """
 """ # example square root
 # real numbers
 import cmath
@@ -24,8 +26,6 @@ print('square of {0} is {1:0.2f}+{2:0.2f}'.format(numb2,
                                                   num_sqrt2.real, num_sqrt2.imag))
 
  """
-
-
 """ # example sum
 # format
 numb1 = input("input first：")
